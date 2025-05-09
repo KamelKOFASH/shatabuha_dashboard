@@ -25,9 +25,10 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/
+
+
   fonts:
     - family: Cairo
       fonts:
@@ -49,3 +50,9 @@ flutter:
           weight: 300
 flutter_intl:
   enabled: true
+
+flutter_assets:
+  assets_path: assets/images
+  output_path: lib/core/utils
+  filename: app_images.dart
+  field_prefix:
