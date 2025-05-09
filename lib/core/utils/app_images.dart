@@ -26,22 +26,6 @@ class Assets {
   /// assets/images/bgImage2.svg
   static const String imagesBgImage2 = "assets/images/bgImage2.svg";
 
-  /// Assets for imagesBoldHome
-  /// assets/images/Bold/home.svg
-  static const String imagesBoldHome = "assets/images/Bold/home.svg";
-
-  /// Assets for imagesBoldProducts
-  /// assets/images/Bold/products.svg
-  static const String imagesBoldProducts = "assets/images/Bold/products.svg";
-
-  /// Assets for imagesBoldShoppingCart
-  /// assets/images/Bold/shopping-cart.svg
-  static const String imagesBoldShoppingCart = "assets/images/Bold/shopping-cart.svg";
-
-  /// Assets for imagesBoldUser
-  /// assets/images/Bold/user.svg
-  static const String imagesBoldUser = "assets/images/Bold/user.svg";
-
   /// Assets for imagesCardReceive
   /// assets/images/card-receive.svg
   static const String imagesCardReceive = "assets/images/card-receive.svg";
@@ -49,6 +33,18 @@ class Assets {
   /// Assets for imagesCardSend
   /// assets/images/card-send.svg
   static const String imagesCardSend = "assets/images/card-send.svg";
+
+  /// Assets for imagesCategory2
+  /// assets/images/category-2.svg
+  static const String imagesCategory2 = "assets/images/category-2.svg";
+
+  /// Assets for imagesChart2
+  /// assets/images/chart-2.svg
+  static const String imagesChart2 = "assets/images/chart-2.svg";
+
+  /// Assets for imagesConvertCard
+  /// assets/images/convert-card.svg
+  static const String imagesConvertCard = "assets/images/convert-card.svg";
 
   /// Assets for imagesEdit
   /// assets/images/edit.svg
@@ -58,33 +54,17 @@ class Assets {
   /// assets/images/featured_item_bg.svg
   static const String imagesFeaturedItemBg = "assets/images/featured_item_bg.svg";
 
-  /// Assets for imagesIconsTwotoneCategory2
-  /// assets/images/icons/twotone/category-2.svg
-  static const String imagesIconsTwotoneCategory2 = "assets/images/icons/twotone/category-2.svg";
+  /// Assets for imagesGraph
+  /// assets/images/graph.svg
+  static const String imagesGraph = "assets/images/graph.svg";
 
-  /// Assets for imagesIconsTwotoneChart2
-  /// assets/images/icons/twotone/chart-2.svg
-  static const String imagesIconsTwotoneChart2 = "assets/images/icons/twotone/chart-2.svg";
+  /// Assets for imagesHome
+  /// assets/images/home.svg
+  static const String imagesHome = "assets/images/home.svg";
 
-  /// Assets for imagesIconsTwotoneConvertCard
-  /// assets/images/icons/twotone/convert-card.svg
-  static const String imagesIconsTwotoneConvertCard = "assets/images/icons/twotone/convert-card.svg";
-
-  /// Assets for imagesIconsTwotoneGraph
-  /// assets/images/icons/twotone/graph.svg
-  static const String imagesIconsTwotoneGraph = "assets/images/icons/twotone/graph.svg";
-
-  /// Assets for imagesIconsTwotoneLogout
-  /// assets/images/icons/twotone/logout.svg
-  static const String imagesIconsTwotoneLogout = "assets/images/icons/twotone/logout.svg";
-
-  /// Assets for imagesIconsTwotoneSetting2
-  /// assets/images/icons/twotone/setting-2.svg
-  static const String imagesIconsTwotoneSetting2 = "assets/images/icons/twotone/setting-2.svg";
-
-  /// Assets for imagesIconsTwotoneWallet2
-  /// assets/images/icons/twotone/wallet-2.svg
-  static const String imagesIconsTwotoneWallet2 = "assets/images/icons/twotone/wallet-2.svg";
+  /// Assets for imagesHomeOutline
+  /// assets/images/home_outline.svg
+  static const String imagesHomeOutline = "assets/images/home_outline.svg";
 
   /// Assets for imagesIfEmptyImage
   /// assets/images/ifEmptyImage.png
@@ -106,6 +86,10 @@ class Assets {
   /// assets/images/logo.png
   static const String imagesLogo = "assets/images/logo.png";
 
+  /// Assets for imagesLogout
+  /// assets/images/logout.svg
+  static const String imagesLogout = "assets/images/logout.svg";
+
   /// Assets for imagesMaskGroup
   /// assets/images/Mask_group.svg
   static const String imagesMaskGroup = "assets/images/Mask_group.svg";
@@ -122,24 +106,40 @@ class Assets {
   /// assets/images/on-boarding-pic2.svg
   static const String imagesOnBoardingPic2 = "assets/images/on-boarding-pic2.svg";
 
-  /// Assets for imagesOutlineHome
-  /// assets/images/Outline/home.svg
-  static const String imagesOutlineHome = "assets/images/Outline/home.svg";
-
-  /// Assets for imagesOutlineProducts
-  /// assets/images/Outline/products.svg
-  static const String imagesOutlineProducts = "assets/images/Outline/products.svg";
-
-  /// Assets for imagesOutlineShoppingCart
-  /// assets/images/Outline/shopping-cart.svg
-  static const String imagesOutlineShoppingCart = "assets/images/Outline/shopping-cart.svg";
-
-  /// Assets for imagesOutlineUser
-  /// assets/images/Outline/user.svg
-  static const String imagesOutlineUser = "assets/images/Outline/user.svg";
-
   /// Assets for imagesProductTest
   /// assets/images/product_test.png
   static const String imagesProductTest = "assets/images/product_test.png";
+
+  /// Assets for imagesProducts
+  /// assets/images/products.svg
+  static const String imagesProducts = "assets/images/products.svg";
+
+  /// Assets for imagesProductsOutline
+  /// assets/images/products_outline.svg
+  static const String imagesProductsOutline = "assets/images/products_outline.svg";
+
+  /// Assets for imagesSetting2
+  /// assets/images/setting-2.svg
+  static const String imagesSetting2 = "assets/images/setting-2.svg";
+
+  /// Assets for imagesShoppingCart
+  /// assets/images/shopping-cart.svg
+  static const String imagesShoppingCart = "assets/images/shopping-cart.svg";
+
+  /// Assets for imagesShoppingCartOutline
+  /// assets/images/shopping-cart_outline.svg
+  static const String imagesShoppingCartOutline = "assets/images/shopping-cart_outline.svg";
+
+  /// Assets for imagesUser
+  /// assets/images/user.svg
+  static const String imagesUser = "assets/images/user.svg";
+
+  /// Assets for imagesUserOutline
+  /// assets/images/user_outline.svg
+  static const String imagesUserOutline = "assets/images/user_outline.svg";
+
+  /// Assets for imagesWallet2
+  /// assets/images/wallet-2.svg
+  static const String imagesWallet2 = "assets/images/wallet-2.svg";
 }
 
