@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:shatabuha_dashboard/core/utils/app_colors.dart';
-import 'package:shatabuha_dashboard/core/utils/text_styles.dart';
+import 'package:shatabuha_dashboard/core/utils/app_styles.dart';
 import 'package:shatabuha_dashboard/features/dashboard/data/models/drawer_model.dart';
 
 class DrawerItem extends StatelessWidget {
@@ -29,7 +29,7 @@ class InActiveItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       leading: SvgPicture.asset(drawerModel.icon),
-      title: Text(drawerModel.title, style: TextStyles.regular16),
+      title: Text(drawerModel.title, style: AppStyles.regular16),
     );
   }
 }
@@ -43,7 +43,7 @@ class ActiveItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       leading: SvgPicture.asset(drawerModel.icon),
-      title: Text(drawerModel.title, style: TextStyles.bold16),
+      title: Text(drawerModel.title, style: AppStyles.bold16),
       trailing: Container(
         width: 4,
         decoration: const BoxDecoration(color: AppColors.primaryColor),

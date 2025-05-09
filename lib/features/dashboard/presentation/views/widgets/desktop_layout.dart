@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shatabuha_dashboard/features/dashboard/presentation/views/widgets/all_expenses_widget.dart';
 import 'package:shatabuha_dashboard/features/dashboard/presentation/views/widgets/custom_drawer.dart';
 
 class DesktopLayout extends StatelessWidget {
@@ -6,6 +7,12 @@ class DesktopLayout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Row(children: [Expanded(child: CustomDrawer())]);
+    return const Row(
+      children: [
+        Expanded(child: CustomDrawer()),
+        SizedBox(width: 32),
+        Expanded(flex: 2, child: AllExpensesWidget()),
+      ],
+    );
   }
 }
