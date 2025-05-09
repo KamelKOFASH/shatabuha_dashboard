@@ -9,16 +9,16 @@ environment:
   sdk: ^3.7.2
 
 dependencies:
+  cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
-
-  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.1.0
+  timezone: ^0.10.1
 
 dev_dependencies:
+  flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
-
-  flutter_lints: ^5.0.0
 
 flutter:
 
@@ -27,7 +27,6 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
-
 
   fonts:
     - family: Cairo
@@ -55,4 +54,4 @@ flutter_assets:
   assets_path: assets/images
   output_path: lib/core/utils
   filename: app_images.dart
-  field_prefix:
+  field_prefix: null
