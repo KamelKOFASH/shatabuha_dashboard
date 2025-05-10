@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:shatabuha_dashboard/core/utils/app_colors.dart';
 import 'package:shatabuha_dashboard/core/utils/app_styles.dart';
 
-class AllExpensesHeader extends StatelessWidget {
-  const AllExpensesHeader({super.key});
+class TotalRevenueHeader extends StatelessWidget {
+  const TotalRevenueHeader({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class AllExpensesHeader extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Text(
-          'All Expenses',
+          'Total Revenue',
           style: AppStyles.semiBold20.copyWith(color: AppColors.primaryColor),
         ),
         Container(
@@ -24,6 +24,14 @@ class AllExpensesHeader extends StatelessWidget {
           ),
           child: Row(
             children: [
+              Text(
+                '95820\$',
+                style: AppStyles.semiBold16.copyWith(
+                  color: AppColors.lightPrimaryColor,
+                ),
+              ),
+              const SizedBox(width: 18.0),
+
               const Text('Monthly', style: AppStyles.regular16),
 
               const SizedBox(width: 18.0),

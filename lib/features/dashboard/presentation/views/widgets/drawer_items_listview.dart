@@ -12,11 +12,11 @@ class DrawerItemsListView extends StatefulWidget {
 
 class _DrawerItemsListViewState extends State<DrawerItemsListView> {
   final List<DrawerModel> drawerItems = const [
-    DrawerModel(title: 'Dashboard', icon: Assets.imagesCategory2),
-    DrawerModel(title: 'My Transaction', icon: Assets.imagesConvertCard),
-    DrawerModel(title: 'Statistics', icon: Assets.imagesGraph),
-    DrawerModel(title: 'Wallet Account', icon: Assets.imagesWallet2),
-    DrawerModel(title: 'My Investments', icon: Assets.imagesChart2),
+    DrawerModel(title: 'Dashboard', icon: Assets.imagesDashboard),
+    DrawerModel(title: 'Orders', icon: Assets.imagesOrders),
+    DrawerModel(title: 'Products', icon: Assets.imagesProductsIcon),
+    DrawerModel(title: 'Shipping', icon: Assets.imagesShipping),
+    DrawerModel(title: 'Payments', icon: Assets.imagesPayments),
   ];
 
   int selectedIndex = 0;

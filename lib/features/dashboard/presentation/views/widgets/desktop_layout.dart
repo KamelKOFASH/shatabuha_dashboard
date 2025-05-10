@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shatabuha_dashboard/features/dashboard/presentation/views/widgets/all_expenses_widget.dart';
+import 'package:shatabuha_dashboard/features/dashboard/presentation/views/widgets/all_orders_widget.dart';
 import 'package:shatabuha_dashboard/features/dashboard/presentation/views/widgets/custom_drawer.dart';
 
 class DesktopLayout extends StatelessWidget {
@@ -11,7 +11,7 @@ class DesktopLayout extends StatelessWidget {
       children: [
         Expanded(child: CustomDrawer()),
         SizedBox(width: 32),
-        Expanded(flex: 2, child: AllExpensesWidget()),
+        Expanded(flex: 2, child: AllOrdersWidget()),
       ],
     );
   }

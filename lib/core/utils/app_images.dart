@@ -42,9 +42,17 @@ class Assets {
   /// assets/images/chart-2.svg
   static const String imagesChart2 = "assets/images/chart-2.svg";
 
+  /// Assets for imagesContactUs
+  /// assets/images/contact_us.svg
+  static const String imagesContactUs = "assets/images/contact_us.svg";
+
   /// Assets for imagesConvertCard
   /// assets/images/convert-card.svg
   static const String imagesConvertCard = "assets/images/convert-card.svg";
+
+  /// Assets for imagesDashboard
+  /// assets/images/dashboard.svg
+  static const String imagesDashboard = "assets/images/dashboard.svg";
 
   /// Assets for imagesEdit
   /// assets/images/edit.svg
@@ -78,6 +86,10 @@ class Assets {
   /// assets/images/image2.png
   static const String imagesImage2 = "assets/images/image2.png";
 
+  /// Assets for imagesImageProfile
+  /// assets/images/image_profile.svg
+  static const String imagesImageProfile = "assets/images/image_profile.svg";
+
   /// Assets for imagesLocation
   /// assets/images/location.svg
   static const String imagesLocation = "assets/images/location.svg";
@@ -98,6 +110,10 @@ class Assets {
   /// assets/images/moneys.svg
   static const String imagesMoneys = "assets/images/moneys.svg";
 
+  /// Assets for imagesNewOrders
+  /// assets/images/new_orders.svg
+  static const String imagesNewOrders = "assets/images/new_orders.svg";
+
   /// Assets for imagesOnBoardingPic1
   /// assets/images/on-boarding-pic1.svg
   static const String imagesOnBoardingPic1 = "assets/images/on-boarding-pic1.svg";
@@ -105,6 +121,22 @@ class Assets {
   /// Assets for imagesOnBoardingPic2
   /// assets/images/on-boarding-pic2.svg
   static const String imagesOnBoardingPic2 = "assets/images/on-boarding-pic2.svg";
+
+  /// Assets for imagesOrders
+  /// assets/images/orders.svg
+  static const String imagesOrders = "assets/images/orders.svg";
+
+  /// Assets for imagesPayments
+  /// assets/images/payments.svg
+  static const String imagesPayments = "assets/images/payments.svg";
+
+  /// Assets for imagesPendingOrders
+  /// assets/images/pending_orders.svg
+  static const String imagesPendingOrders = "assets/images/pending_orders.svg";
+
+  /// Assets for imagesPowerOff
+  /// assets/images/power_off.svg
+  static const String imagesPowerOff = "assets/images/power_off.svg";
 
   /// Assets for imagesProductTest
   /// assets/images/product_test.png
@@ -114,6 +146,10 @@ class Assets {
   /// assets/images/products.svg
   static const String imagesProducts = "assets/images/products.svg";
 
+  /// Assets for imagesProductsIcon
+  /// assets/images/products_icon.svg
+  static const String imagesProductsIcon = "assets/images/products_icon.svg";
+
   /// Assets for imagesProductsOutline
   /// assets/images/products_outline.svg
   static const String imagesProductsOutline = "assets/images/products_outline.svg";
@@ -121,6 +157,18 @@ class Assets {
   /// Assets for imagesSetting2
   /// assets/images/setting-2.svg
   static const String imagesSetting2 = "assets/images/setting-2.svg";
+
+  /// Assets for imagesSettings
+  /// assets/images/settings.svg
+  static const String imagesSettings = "assets/images/settings.svg";
+
+  /// Assets for imagesShipping
+  /// assets/images/shipping.svg
+  static const String imagesShipping = "assets/images/shipping.svg";
+
+  /// Assets for imagesShippingOrders
+  /// assets/images/shipping_orders.svg
+  static const String imagesShippingOrders = "assets/images/shipping_orders.svg";
 
   /// Assets for imagesShoppingCart
   /// assets/images/shopping-cart.svg
