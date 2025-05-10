@@ -9,42 +9,43 @@ class AllOrderItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: 120 * 2.5,
-      height: 120,
-      decoration: BoxDecoration(
-        gradient: orderItem.gradient,
-        borderRadius: BorderRadius.circular(16),
-      ),
-      child: Stack(
-        children: [
-          Positioned(
-            bottom: 0,
-            left: 0,
-            child: SvgPicture.asset(orderItem.image, width: 80),
-          ),
-
-          // Title (top left)
-          Positioned(
-            top: 20,
-            left: 20,
-            child: Text(
-              orderItem.title,
-              style: AppStyles.semiBold18.copyWith(color: Colors.white),
+    return AspectRatio(
+      aspectRatio: 2.5,
+      child: Container(
+        decoration: BoxDecoration(
+          gradient: orderItem.gradient,
+          borderRadius: BorderRadius.circular(16),
+        ),
+        child: Stack(
+          children: [
+            Positioned(
+              bottom: 0,
+              left: 0,
+              child: SvgPicture.asset(orderItem.image, width: 80),
             ),
-          ),
 
-          // Amount (bottom right)
-          Positioned(
-            bottom: 0,
-            right: 20,
-            child: Text(
-              orderItem.amount,
-              textAlign: TextAlign.right,
-              style: AppStyles.semiBold60.copyWith(color: Colors.white),
+            // Title (top left)
+            Positioned(
+              top: 20,
+              left: 20,
+              child: Text(
+                orderItem.title,
+                style: AppStyles.semiBold18.copyWith(color: Colors.white),
+              ),
             ),
-          ),
-        ],
+
+            // Amount (bottom right)
+            Positioned(
+              bottom: 0,
+              right: 20,
+              child: Text(
+                orderItem.amount,
+                textAlign: TextAlign.right,
+                style: AppStyles.semiBold60.copyWith(color: Colors.white),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

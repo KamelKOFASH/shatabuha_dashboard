@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shatabuha_dashboard/core/utils/app_images.dart';
 import 'package:shatabuha_dashboard/features/dashboard/data/models/order_model.dart';
+import 'package:shatabuha_dashboard/features/dashboard/presentation/views/widgets/custom_bg_container.dart';
 import 'package:shatabuha_dashboard/features/dashboard/presentation/views/widgets/total_Revenu_header.dart';
 import 'package:shatabuha_dashboard/features/dashboard/presentation/views/widgets/all_order_item.dart';
 
@@ -40,12 +41,8 @@ class AllOrdersWidget extends StatelessWidget {
   ];
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.all(20.0),
-      decoration: ShapeDecoration(
-        color: Colors.white,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-      ),
+    return CustomBackgroundContainer(
+      orderItems: orderItems,
       child: Column(
         children: [
           const TotalRevenueHeader(),
@@ -54,9 +51,11 @@ class AllOrdersWidget extends StatelessWidget {
             children:
                 orderItems
                     .map(
-                      (orderItem) => Padding(
-                        padding: const EdgeInsets.only(left: 16.0),
-                        child: AllOrderItem(orderItem: orderItem),
+                      (orderItem) => Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.only(left: 16.0),
+                          child: AllOrderItem(orderItem: orderItem),
+                        ),
                       ),
                     )
                     .toList(),
