@@ -39,7 +39,7 @@ class InboxWidgetHeader extends StatelessWidget {
         const Spacer(),
         Text(
           'View details',
-          style: AppStyles.semiBold18.copyWith(color: AppColors.accentColor),
+          style: AppStyles.semiBold16.copyWith(color: AppColors.accentColor),
         ),
       ],
     );
