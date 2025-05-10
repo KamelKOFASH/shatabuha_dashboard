@@ -1,15 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:shatabuha_dashboard/features/dashboard/data/models/order_model.dart';
 
 class CustomBackgroundContainer extends StatelessWidget {
   const CustomBackgroundContainer({
     super.key,
-    required this.orderItems,
     required this.child,
     this.padding,
   });
 
-  final List<OrderModel> orderItems;
   final Widget child;
   final double? padding;
   @override

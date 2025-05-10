@@ -25,7 +25,7 @@ class TotalRevenueHeader extends StatelessWidget {
           child: Row(
             children: [
               Text(
-                '95820\$',
+                '100000\$',
                 style: AppStyles.semiBold16.copyWith(
                   color: AppColors.lightPrimaryColor,
                 ),
