@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shatabuha_dashboard/core/utils/app_images.dart';
 import 'package:shatabuha_dashboard/features/dashboard/data/models/order_model.dart';
 import 'package:shatabuha_dashboard/features/dashboard/presentation/views/widgets/custom_bg_container.dart';
-import 'package:shatabuha_dashboard/features/dashboard/presentation/views/widgets/total_Revenu_header.dart';
+import 'package:shatabuha_dashboard/features/dashboard/presentation/views/widgets/total_revenu_header.dart';
 import 'package:shatabuha_dashboard/features/dashboard/presentation/views/widgets/all_order_item.dart';
 
 class AllOrdersWidget extends StatelessWidget {
